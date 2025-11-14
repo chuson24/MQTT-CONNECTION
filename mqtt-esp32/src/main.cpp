@@ -4,6 +4,11 @@
 #include <WiFiClientSecure.h>
 #include <PubSubClient.h>
 #include "time.h"
+#include <DHTesp.h>
+#include <LiquidCrystal_I2C.h>
+#include <ESP32Servo.h>
+
+
 
 // ----- Thông tin thiết bị -----
 const char* device_id = "esp32_devkit_01";
